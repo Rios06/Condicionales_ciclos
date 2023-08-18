@@ -5,7 +5,7 @@ let  contadorMenores=0
 let promayores=0
 let promenores=0
 let  estudiantes = prompt("Ingrese cantidad de estudiantes");
-for (let i=1 ; i<=2 ; i++){
+for (let i=1 ; i<=estudiantes ; i++){
     let codig = Number(prompt ("Ingrese el codigo" + i));
     let edad= Number(prompt ("Ingrese la edad" + i));
 
