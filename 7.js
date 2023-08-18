@@ -1,5 +1,5 @@
 
-for (let i=1 ; i<=2; i++){
+for (let i=1 ; i<=5; i++){
     let producto = prompt("Ingresa nombre del producto");
     let precio = prompt("Ingrese precio del producto");
     let iva = parseInt (precio)* (.19)
